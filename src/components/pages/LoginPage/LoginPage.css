@@ -1,0 +1,151 @@
+.backgroundcontainer {
+  height: 100vh;
+  background-color: #df3030;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.innerlogincontainer {
+  background-color: #fff;
+  width: 740px;
+  height: 560px;
+  border-radius: 30px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.registerinnercontainer {
+  background-color: #fff;
+  width: 740px;
+  height: auto;
+  border-radius: 30px;
+  padding: 20px 0px;
+  display: grid;
+  grid-template-rows: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.containertitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #df3030;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 20px;
+  margin-bottom: 4%;
+}
+
+.containerforms {
+  display: flex;
+  justify-content: center;
+}
+
+.marginedinputform {
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+.passinputform {
+  width: 100%;
+  margin-bottom: 4%;
+}
+
+.label {
+  white-space: nowrap;
+}
+
+.rightlink {
+  text-decoration: none;
+  color: #838fa6;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.buttongroup {
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginbutton {
+  background-color: #df3030;
+  border: none;
+  border-radius: 12px;
+  height: 70px;
+  width: 280px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #fff;
+}
+
+.resetbutton {
+  background-color: #df3030;
+  border: none;
+  border-radius: 12px;
+  height: 60px;
+  width: 200px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.middlerow {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #838fa6;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+  color: #e52c32;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.linkbutton {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.containertext {
+  color: #838fa6;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emailtext {
+  color: #e52c32;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}

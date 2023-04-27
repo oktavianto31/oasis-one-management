@@ -1,0 +1,517 @@
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.createtenantmodalbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 200px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.createtenantheader{
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 8px;
+}
+
+.detailcontainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+  background-color: #ebebeb;
+}
+
+.sidepanelfoodcourtdetail {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+  zoom: 85%;
+  background-color: #fff;
+}
+
+.profilecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+.profileimage {
+  width: 125px;
+  height: 125px;
+  filter: drop-shadow(0px 0px 5px rgba(66, 66, 66, 0.25));
+  border-radius: 100px;
+}
+
+.profilename {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 25px;
+  color: #424242;
+  margin-top: 7%;
+}
+
+.profiledetailcontainer {
+  margin-top: 5%;
+  padding: 0 8%;
+}
+
+.profiledetails {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.profiletext {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #c4c4c4;
+  margin-right: 2%;
+}
+
+.profilecolor {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+}
+
+.profiletext {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #c4c4c4;
+  margin-right: 2%;
+}
+
+.profiletext3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #424242;
+  margin-top: 5%;
+}
+
+.foodcourtdetailcontainer {
+  width: 75%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-color: #ebebeb;
+  transition: all 0.5s ease-in-out;
+}
+
+.foodcourtdetailheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.foodcourtdetailheaderleft {
+  display: flex;
+  flex: 1;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #e52c32;
+  align-items: center;
+  padding: 1% 0;
+  margin-bottom: 1%;
+  position: relative;
+}
+
+.foodcourtdetailheaderright {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex: 0.5;
+}
+
+.foodcourtdetailleft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #838fa6;
+  white-space: nowrap;
+}
+
+.foodcourtdetailcenter {
+  display: flex;
+  width: 100%;
+  min-width: 150px;
+  max-width: 740px;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 2%;
+  position: relative;
+}
+
+.searchicon {
+  display: flex;
+  width: 22px;
+  height: 20px;
+  position: absolute;
+  margin: auto 0 auto 12px;
+  color: #df3030;
+  top: 12px;
+}
+.searchinput {
+  display: flex;
+  width: 100%;
+  min-width: 150px;
+  max-width: 740px;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding-left: 40px;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #838fa6;
+}
+.searchinput::placeholder {
+  color: #838fa6;
+}
+.searchclosebutton {
+  display: flex;
+  align-items: center;
+  outline: none;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  position: absolute;
+  margin: auto 0 auto 0;
+  right: 2px;
+}
+.closeicon {
+  height: 24px;
+  width: 24px;
+  color: #df3030;
+}
+
+.foodcourtdetailright {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.placeholder {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #838fa6;
+}
+.searchhide {
+  display: none;
+}
+
+.hide {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 30px;
+  align-items: center;
+  height: 0;
+  opacity: 0;
+  transform: scale(0.1);
+  visibility: hidden;
+  color: #ebebeb;
+  display: none;
+}
+
+.unhide {
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #df3030;
+  position: absolute;
+  margin-left: 15%;
+}
+
+.addfoodcourtdetailbtn {
+  background-color: #df3030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px 10px 25px;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.outerfoodcourtdetailtable {
+  position: relative;
+  overflow: scroll;
+}
+.outerfoodcourtdetailtable::-webkit-scrollbar {
+  display: none;
+}
+
+.foodcourtdetailheadertitlegrid {
+  display: grid;
+  height: 40px;
+  min-width: 1532px;
+  grid-gap: 5%;
+  grid-template-columns: 0.45fr 2fr 1.5fr 1fr 1fr 1fr;
+  align-content: center;
+  align-items: center;
+  margin-bottom: -1%;
+  box-sizing: border-box;
+}
+
+.foodcourtdetailheadertitle {
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #838fa6;
+}
+
+.foodcourtdetailrendercontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  max-height: 660px;
+}
+
+.foodcourtdetailrendergrid {
+  display: grid;
+  min-height: 80px;
+
+  grid-template-columns: 0.45fr 2fr 1.5fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.foodcourtdetailtext {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: #424242;
+}
+
+.foodcourtdetailprofilecontainer {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: #424242;
+}
+
+.foodcourtdetailprofile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8fafb;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 3%;
+}
+
+.foodcourtdetailaddresscontainer {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #838fa6;
+  width: 100%;
+  height: 48px;
+}
+
+.clusteraddress {
+  width: 195px;
+  height: 48px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.address {
+  width: 140px;
+  height: 48px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.viewdetails {
+  margin-left: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.viewbutton {
+  display: flex;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #e52c32;
+  cursor: pointer;
+}
+
+.foodcourtdetailfooter {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.deletefoodcourtdetailbutton {
+  width: 151px;
+  height: 40px;
+  border: 0px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  background-color: #df3030;
+  border-radius: 5px;
+}
+
+.editprofilesettingsfoodcourtdetail {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.foodcourtdetailprofileeditcontainer {
+  width: 100%;
+  min-width: 1242px;
+  height: 500px;
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
+.selectcomponent{
+
+  margin-top: 10px;
+}
+
+.profileurl{
+  margin-top: 11px;
+}
+
+.profileqrcode{
+  margin-top: 11px;
+}
+
+.qrimage{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qrcodedownloadbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: #df3030;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  margin-top: 5%;
+}
+
+.editprofilebutton {
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+  margin-top: -25px;
+  align-items: flex-end;
+  margin-left: 100px;
+  margin-bottom: 15px;
+}

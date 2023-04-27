@@ -1,0 +1,35 @@
+.tenantcustomerheadertitlegrid {
+  display: grid;
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+  height: 50px;
+  grid-template-columns: 0.5fr 1.4fr 1fr 0.8fr ;
+  padding: 0 3%;
+  align-items: center;
+  background-color: #fffaf4;
+}
+.customerheadertitle {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #808080;
+}
+
+.tenantcustomerrendergrid {
+  display: grid;
+  justify-content: flex-start;
+  height: 75px;
+  width: 100%;
+  grid-template-columns: 0.5fr 1.4fr 1fr 0.8fr;
+  padding: 0 3%;
+  align-items: center;
+}
+
+.customertext {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #555570;
+}
